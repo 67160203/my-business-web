@@ -25,28 +25,28 @@ my-business-web<br>
 ### 1. Home
 
 <image
-      src="image/home.png"
+      src="images/home.png"
       style="width: 100%"
     />
 
 ### 2. About
 
 <image
-      src="image/about.png"
+      src="images/about.png"
       style="width: 100%"
     />
 
 ### 3. Services
 
 <image
-      src="image/services.png"
+      src="images/services.png"
       style="width: 100%"
     />
 
 ### 4. Contact
 
 <image
-      src="image/contact.png"
+      src="images/contact.png"
       style="width: 100%"
     />
 
