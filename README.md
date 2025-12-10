@@ -11,11 +11,48 @@ my-business-web<br>
 ├── contact.html<br>
 ├── images/<br>
 │ ├── logo.png<br>
-│ ├── screen-about.png<br>
-│ ├── screen-contact.png<br>
-│ ├── screen-home.png<br>
-│ ├── screen-services.png<br>
+│ ├── about.png<br>
+│ ├── contact.png<br>
+│ ├── home.png<br>
+│ ├── services.png<br>
 │ ├── ceo.png<br>
 │ └── welcome.png<br>
 │<br>
 └── README.md
+
+## Screenshots of my pages
+
+### 1. Home
+
+<image
+      src="image/home.png"
+      style="width: 100%"
+    />
+
+### 2. About
+
+<image
+      src="image/about.png"
+      style="width: 100%"
+    />
+
+### 3. Services
+
+<image
+      src="image/services.png"
+      style="width: 100%"
+    />
+
+### 4. Contact
+
+<image
+      src="image/contact.png"
+      style="width: 100%"
+    />
+
+## Link to my pages
+
+-[home](index.html) \
+-[about](about.html) \
+-[services](services.html) \
+-[contact](contact.html)
