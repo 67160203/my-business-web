@@ -3,32 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>My Business Web</title>
   </head>
   <body>
-    <header>
-      <!-- logo -->
-      <div style="text-align: center">
-        <img src="images/logo.png" alt="logonNbcS" height="150px" />
+    <header id="top"></header>
+    <nav id="header">
+      <div class="logo">
+        <img src="images/logo.png" alt="logonNbcS" />
+        notNowbutcomingSoon
       </div>
-      <!-- link another pages -->
-      <h1>notNowbutcomingSoon</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">home</a></li>
-          <li><a href="about.html">about</a></li>
-          <li><a href="services.html">services</a></li>
-          <li><a href="contact.html">contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <!-- welcome page -->
-      <img src="images/welcome.png" alt="welcome" width="100%" />
-      <section>
-        <h2>Main services</h2>
-        <ul>
-          <li>
+      <ul class="nav-links">
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="services.html">services</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero">
+      <h1>WELCOME TO notNowbutcomingSoon</h1>
+      <p>
+        พื้นที่สำหรับผู้คนที่ชื่นชอบการดูหนัง แลกเปลี่ยนความคิด
+        และความสนใจในหนังทุกเรื่อง
+      </p>
+      <a href="about.html"><button class="hero-btn">read more</button></a>
+    </section>
+
+    <!-- Main services -->
+    <section class="services">
+      <h2>Main services</h2>
+      <div class="container">
+        <ul class="services-grid">
+          <li class="services-card">
             <h3>Spoiled Alert!</h3>
             <p>
               หากคุณต้องการฟังสรุปเรื่องราวของหนังที่คุณตามหา
@@ -36,7 +43,7 @@
               หรือหนังประเทศใด เราก็สามารถมาสรุปให้คุณได้
             </p>
           </li>
-          <li>
+          <li class="services-card">
             <h3>After Watchie</h3>
             <p>
               ถ้าคุณดูหนังจบแล้วรู้สึกอารมณ์ค้าง อยากพูดคุยแลกเปลี่ยนความคิด
@@ -44,7 +51,7 @@
               แถมยังมีพื้นที่ให้รีวิวหนังอีกด้วยนะ
             </p>
           </li>
-          <li>
+          <li class="services-card">
             <h3>Recomment by NowSoon</h3>
             <p>
               หากคุณต้องการหาหนังที่แมทช์กับความรู้สึกของคุณ
@@ -53,12 +60,17 @@
             </p>
           </li>
         </ul>
-      </section>
-    </main>
-    <footer>
+      </div>
+      <br />
+    </section>
+
+    <a href="#top" class="back-to-top">↑</a>
+
+    <footer id="footer">
       <hr />
       <p>&copy; 2025 notNowbutcomingSoon. all rights reserved.</p>
       <p>Contact us: 67160203@go.buu.ac.th | Tel: 0863744818</p>
+      <hr />
     </footer>
   </body>
 </html>
