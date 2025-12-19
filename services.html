@@ -4,85 +4,124 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Service</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- our services -->
-    <header>
-      <h1>notNowbutcomingSoon Services</h1>
-      <nav>
-        <ul>
-          <li><a href="#SpoiledAlert">Spoiled Alert!</a></li>
-          <li><a href="#AfterWatchie">After Watchie</a></li>
-          <li><a href="#Recomment">Recomment by NowSoon</a></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- main services -->
-    <main>
-      <h2>Main Services</h2>
-      <section id="SpoiledAlert">
-        <h3>Spoiled Alert!</h3>
-        <p>
-          ตามหาสปอยหนังอยู่หรือเปล่า ที่นี่เรามีบริการสปอยหนัง
+    <header id="top"></header>
+    <nav id="header">
+      <div class="logo">
+        <img src="images/logo.png" alt="logonNbcS" />
+        notNowbutcomingSoon
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="services.html">services</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+    <h1>Services of notNowbutcomingSoon</h1>
+    <div class="service-container">
+      <div class="main-content">
+        <aside class="sidebar">
+          <div class="sidebar-box">
+            <!-- หมวดหมู่ Notely -->
+            <section>
+              <h3>Category of notNowbutcomingSoon</h3>
+              <nav>
+                <ul>
+                  <li><a href="#ser">Main Services</a></li>
+                  <li><a href="#member">Package Services</a></li>
+                </ul>
+              </nav>
+            </section>
+          </div>
+          <div class="sidebar-box">
+            <!-- Main Services -->
+            <section>
+              <h3>Main Services of notNowbutcomingSoon</h3>
+              <nav>
+                <ul>
+                  <li><a href="#SpoiledAlert">Spoiled Alert!</a></li>
+                  <li><a href="#AfterWatchie">After Watchie</a></li>
+                  <li><a href="#Recomment">Recomment by NowSoon</a></li>
+                </ul>
+              </nav>
+            </section>
+          </div>
+        </aside>
+        <main class="articles">
+          <section id="ser">
+            <h2>Main Services</h2>
+            <div class="articles-grid">
+              <section>
+                <!-- Main Services -->
+                <section class="articles-card" id="SpoiledAlert">
+                  <h3>Spoiled Alert!</h3>
+                  <p>
+                    ตามหาสปอยหนังอยู่หรือเปล่า ที่นี่เรามีบริการสปอยหนัง
           ไม่ว่าหนังที่คุณตามหาจะเก่าแค่ไหน
           เราก็จะมาสปอยให้คุณได้ตามที่คุณต้องการ
-        </p>
-      </section>
-      <section id="AfterWatchie">
-        <h3>After Watchie</h3>
-        <p>
-          หลังจากดูหนังจบ อารมณ์ค้าง อยากพูดคุยกับผู้อื่นหรือเปล่าล่ะ
+                  </p>
+                </section>
+                <section class="articles-card" id="AfterWatchie">
+                  <h3>After Watchie</h3>
+                  <p>
+                    หลังจากดูหนังจบ อารมณ์ค้าง อยากพูดคุยกับผู้อื่นหรือเปล่าล่ะ
           ถ้าอยากพวกเรามีบริการพูดคุยแลกเปลี่ยนความรู้สึก
           หรือความคิดเห็นเกี่ยวหนังเรื่องต่าง ๆ
-        </p>
-      </section>
-      <section id="Recomment">
-        <h3>Recomment by NowSoon</h3>
-        <p>
-          สำหรับคนที่ไม่รู้จะดูหนังเรื่องอะไร
+                  </p>
+                </section>
+                <section class="articles-card" id="Recomment">
+                  <h3>Recomment by NowSoon</h3>
+                  <p>
+                    สำหรับคนที่ไม่รู้จะดูหนังเรื่องอะไร
           หรือยากเริ่มต้นดูหนังตามความรู้สึกของตัวเองในตอนนั้น ๆ
           พวกเราก็มีบริการแนะนำหนังตามที่ผู้ใช้ต้องการอยากดู
           ไม่ว่าจะเป็นประเภทไหน ๆ เราก็สามารถแนะนำได้
-        </p>
-      </section>
-      <!-- compare services -->
+                  </p>
+                </section>
+              </section>
+            </div>
+          </section>
+          <!-- Package Services -->
+            <h2>ตารางเปรียบเทียบบริการต่าง ๆ ของ notNowbutcomingSoon</h2>
+            <section id="member"></section>
+            <table border="1" class="pricing-table">
+              <thead>
+                <tr>
+                  <th>ฟีเจอร์ต่าง ๆ</th>
+                  <th>สมาชิกทั่วไป</th>
+                  <th>สมาชิกรายเดือน</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Spoiled Alert!</td>
+                  <td>สามารถอ่านสปอยได้ 3 เรื่องต่อเดือน</td>
+                  <td>สามารถอ่านสปอยได้ทุกเรื่องตามที่ต้องการ</td>
+                </tr>
+                <tr>
+                  <td>After Watchie</td>
+                  <td>พูดคุยแลกเปลี่ยนความคิดเกี่ยวกับหนัง</td>
+                  <td>สามารถสร้างช่องแชทพิเศษสำหรับหนังแต่ละเรื่อง</td>
+                </tr>
+                <tr>
+                  <td>Recomment by NowSoon</td>
+                  <td>สามารถหาหนังที่ต้องการดู</td>
+                  <td>สามารถเขียนแนะนำหนังแต่ละเรื่องที่เคยดูแล้ว</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </main>
+      </div>
+    </div>
+    <a href="#top" class="back-to-top">↑</a>
+    <footer id="footer">
       <hr />
-      <section>
-        <h2>ตารางเปรียบเทียบบริการต่าง ๆ ของ notNowbutcomingSoon</h2>
-        <table border="1">
-          <thead>
-            <tr>
-              <th>ฟีเจอร์ต่าง ๆ</th>
-              <th>สมาชิกทั่วไป</th>
-              <th>สมาชิกรายเดือน</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Spoiled Alert!</td>
-              <td>สามารถอ่านสปอยได้ 3 เรื่องต่อเดือน</td>
-              <td>สามารถอ่านสปอยได้ทุกเรื่องตามที่ต้องการ</td>
-            </tr>
-            <tr>
-              <td>After Watchie</td>
-              <td>พูดคุยแลกเปลี่ยนความคิดเกี่ยวกับหนัง</td>
-              <td>สามารถสร้างช่องแชทพิเศษสำหรับหนังแต่ละเรื่อง</td>
-            </tr>
-            <tr>
-              <td>Recomment by NowSoon</td>
-              <td>สามารถหาหนังที่ต้องการดู</td>
-              <td>สามารถเขียนแนะนำหนังแต่ละเรื่องที่เคยดูแล้ว</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
-      <!-- Link to home -->
-      <hr />
-      <a href="index.html">back to home</a>
-    </main>
-    <footer>
       <p>&copy; 2025 notNowbutcomingSoon. all rights reserved.</p>
       <p>Contact us: 67160203@go.buu.ac.th | Tel: 0863744818</p>
+      <a href="index.html">back to home</a>
+      <hr />
     </footer>
-  </body>
-</html>
