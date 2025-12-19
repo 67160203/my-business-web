@@ -4,12 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <header id="top"></header>
+    <nav id="header">
+      <div class="logo">
+        <img src="images/logo.png" alt="logonNbcS" />
+        notNowbutcomingSoon
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">home</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="services.html">services</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
     <main>
-      <!-- story about my service -->
-      <section>
-        <h1>What is notNowbutcomingSoon ?</h1>
+      <section class="section">
+        <h1>About notNowbutcomingSoon</h1>
+        <!-- story about my service -->
+        <h2>What is notNowbutcomingSoon ?</h2>
         <p>
           notNowbutcomingSoon เกิดขึ้นจากความตั้งใจของพวกเราที่เป็นคอดูหนัง
           แล้วอยากมีพื้นที่ในการแลกเปลี่ยนพูดคุยหลังจากที่ดูหนังจบ
@@ -22,40 +37,62 @@
         </p>
       </section>
       <!-- my team -->
-      <section>
-        <h1>notNowbutcomingSoon Team</h1>
-        <figure>
-          <img src="images/ceo.png" alt="CEO_pic" width="30%" />
-          <figcaption>
-            <strong>CEO notNowbutcomingSoon</strong>
-            <br />
-            ผู้ก่อตั้งและพัฒนา
-          </figcaption>
-        </figure>
+      <section class="team-section">
+        <h2>notNowbutcomingSoon Team</h2>
+        <div class="container">
+          <div class="team-grid">
+            <figure class="team-member">
+              <img src="images/team-member-1.png" alt="CEO" />
+              <figcaption>
+                <strong>CEO & Founder</strong>
+                <br />
+                ผู้ก่อตั้งและพัฒนาแพลตฟอร์ม
+              </figcaption>
+            </figure>
+            <figure class="team-member">
+              <img src="images/team-member-2.png" alt="Admin" />
+              <figcaption>
+                <strong>Admin</strong>
+                <br />
+                แอดมินดูแลความถูกต้องของบริการ
+              </figcaption>
+            </figure>
+            <figure class="team-member">
+              <img src="images/team-member-3.png" alt="Service staff" />
+              <figcaption>
+                <strong>Service Staff</strong>
+                <br />
+                พูดคุยกับลูกค้า
+              </figcaption>
+            </figure>
+          </div>
+        </div>
       </section>
       <!-- Mission/Vision -->
-      <section>
-        <h1>Vision & Mission</h1>
-        <h2>Vision (วิสัยทัศน์)</h2>
+      <section class="section">
+        <h2>Vision & Mission</h2>
+        <h3>Vision(วิสัยทัศน์)</h3>
         <p>
           เป็นพื้นที่แลกเปลี่ยนความคิดสำหรับคอหนัง
           และพื้นที่สำหรับตามหาหนังสำหรับทุกคน
         </p>
-        <h2>Mission (พันธกิจ)</h2>
+        <h3>Mission(พันธกิจ)</h3>
         <ul>
           <li>ช่องสำหรับตามหาสปอยหนังที่ต้องการ</li>
           <li>ช่องแชทออนไลน์สำหรับแลกเปลี่ยนความเห็นเกี่ยวกับหนัง</li>
           <li>ช่องสำหรับแนะนำหนังตามความต้องการของผู้ใช้งาน</li>
         </ul>
       </section>
-    </main>
-    <!-- Link to home -->
+      <!-- Link to home -->
       <hr />
-      <a href="index.html">back to home</a>
     </main>
-    <footer>
+    <a href="#top" class="back-to-top">↑</a>
+    <footer id="footer">
+      <hr />
       <p>&copy; 2025 notNowbutcomingSoon. all rights reserved.</p>
       <p>Contact us: 67160203@go.buu.ac.th | Tel: 0863744818</p>
+      <a href="index.html">back to home</a>
+      <hr />
     </footer>
   </body>
 </html>
