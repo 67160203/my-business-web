@@ -67,3 +67,47 @@ a:hover {
   color: #725f8a;
   text-decoration: underline;
 }
+
+/*=== LAYOUT & CONTAINERS === */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* Section */
+.section {
+  padding: 2rem 2rem;
+  margin: 0 auto;
+}
+
+.section ul {
+  padding: 0.3rem 1rem;
+}
+
+/*service-container*/
+.service-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.main-content {
+  display: flex;
+  gap: 2rem;
+  max-width: 3rem 0;
+}
+
+/*Sidebar*/
+.sidebar {
+  flex: 0 0 250px; /*เพิ่มระยะห่าง*/
+}
+
+/*Articles Section*/
+.articles {
+  flex: 1;
+}
+
+/* Services Section */
+.services {
+  flex: 1;
+  padding: 4rem 2rem;
+}
