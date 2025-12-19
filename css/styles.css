@@ -112,6 +112,41 @@ a:hover {
   padding: 4rem 2rem;
 }
 
+/* === COMPONENTS (HEADER, NAV, CARD, etc.) ===*/
+/* Header - Flexbox */
+#header {
+  display: flex; /*การแสดงผลแบบ flex*/
+  justify-content: space-between; /*อยู่ชิดด้านข้างทั้งสองฝั่ง*/
+  align-items: center; /*อยู่ระหว่างบรรทัด*/
+  background-color: #cec1d7; /*สีพื้นหลัง*/
+  padding: 15px 20px; /*ขนาด padding*/
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /*เส้นขอบ*/
+  position: sticky; /*อยู่ที่เดิมเวาลาเลื่อน*/
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  display: flex; /*แสดงผลแบบ flex*/
+  color: #22033b; /*สีข้อความ*/
+  font-size: 2rem;
+  font-weight: bold;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.nav-links {
+  display: flex;
+  gap: 3rem; /*ช่องว่างระหว่างกัน*/
+  list-style: none; /*ไม่มีจุดข้างหน้า*/
+}
+
 /*Hero Section - Flexbox*/
 .hero {
   display: flex;
@@ -379,4 +414,29 @@ form {
 .pricing-table tr:hover {
   background-color: #9a8da3;
   transition: background-color 0.2s;
+}
+
+/* Footer */
+#footer {
+  background-color: #22033b;
+  color: #d7cdc1;
+  text-align: center;
+  padding: 2rem;
+  margin-top: auto;
+}
+
+#footer p {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+  color: #cec1d7;
+}
+
+#footer hr {
+  border-color: rgba(205, 193, 215, 0.2);
+  margin-bottom: 1rem;
+}
+
+#footer a {
+  color: #cec1d7;
+  margin-bottom: 1rem;
 }
